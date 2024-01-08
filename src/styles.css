@@ -29,6 +29,19 @@ p {
   padding: 40px 10px;
   color: #541423;
 }
+footer {
+  text-align: center;
+  font-family: "Laila", serif;
+  margin-top: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #541423;
+  font-size: 13px;
+}
+a :hover {
+  cursor: pointer;
+}
 .container-homepage {
   background-color: #e8db8d;
   opacity: 0.6;
