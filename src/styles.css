@@ -1,3 +1,54 @@
+/* font-family: 'Eagle Lake', serif;
+font-family: 'Fondamento', cursive;
+font-family: 'Gilda Display', serif;
+font-family: 'Laila', serif;
+font-family: 'Macondo', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Pirata One', system-ui;
+font-family: 'WindSong', cursive; */
+
 body {
-  background-color: magenta;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #692b37;
+  background-image: url(/images/city.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+h1 {
+  font-family: "Eagle Lake", serif;
+  font-size: 110px;
+  text-align: center;
+  margin: 30px 0;
+  color: #541423;
+  font-weight: bolder;
+}
+p {
+  font-family: "Laila", serif;
+  text-align: center;
+  font-size: 28px;
+  padding: 40px 10px;
+  color: #541423;
+}
+.container-homepage {
+  background-color: #e8db8d;
+  opacity: 0.6;
+  max-width: 800px;
+  margin: 140px auto;
+  padding: 40px 20px;
+  border-radius: 6px;
+}
+.pages {
+  text-align: center;
+  font-family: "Laila", serif;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #541423;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+.pages a {
+  text-decoration: none;
+  color: #e8db8d;
+  font-weight: bolder;
 }
