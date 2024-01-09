@@ -16,17 +16,13 @@ body {
 }
 h1 {
   font-family: "Eagle Lake", serif;
-  font-size: 110px;
+  font-size: 100px;
   text-align: center;
   margin: 30px 0;
   color: #541423;
   font-weight: bolder;
 }
-.sub-heading1 {
-  color: #213c8e;
-  font-size: 30px;
-  font-weight: bold;
-}
+
 /* img {
   width: 100%;
   border-radius: 7px;
@@ -75,6 +71,16 @@ a :hover {
   padding: 40px 20px;
   border-radius: 6px;
 }
+.sub-heading1 {
+  color: #213c8e;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sub-heading2 {
+  color: #225230;
+  font-size: 30px;
+  font-weight: bold;
+}
 .intro {
   text-align: center;
   font-size: 28px;
@@ -90,11 +96,17 @@ a :hover {
 .book-cover {
   width: 80%;
   padding: 20px;
-  margin: 40px 0 0 60px;
+  margin: 40px 0 20px 60px;
   border-radius: 7px;
 }
 .secondary-image {
   width: 90%;
+  display: block;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.third-image {
+  width: 60%;
   display: block;
   border-radius: 7px;
   margin-bottom: 40px;
