@@ -167,7 +167,10 @@ a :hover {
     font-size: 45px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 19px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
   .container-homepage {
     max-width: 300px;
@@ -194,6 +197,10 @@ a :hover {
     font-size: 16px;
     text-align: center;
   }
+  .sub-heading4 {
+    font-size: 16px;
+    text-align: center;
+  }
   .intro {
     font-size: 14px;
   }
@@ -207,6 +214,7 @@ a :hover {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   .external-links {
     font-size: 10px;
