@@ -22,11 +22,14 @@ h1 {
   color: #541423;
   font-weight: bolder;
 }
-
-/* img {
-  width: 100%;
-  border-radius: 7px;
-} */
+h2 {
+  font-family: "Eagle Lake", serif;
+  font-size: 100px;
+  text-align: center;
+  margin: 30px 0;
+  color: #541423;
+  font-weight: bolder;
+}
 footer {
   text-align: center;
   margin-top: 50px;
@@ -163,13 +166,40 @@ a :hover {
   h1 {
     font-size: 45px;
   }
-  p {
-    font-size: 14px;
+  h2 {
+    font-size: 25px;
   }
   .container-homepage {
     max-width: 300px;
+    margin: 40px auto;
   }
-  .pages {
+  .sub-container {
+    max-width: 300px;
+    margin: 10px auto;
+  }
+  .book-cover {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .sub-heading1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .intro {
+    font-size: 14px;
+  }
+  .synopsis {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
+  .secondary-image {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .external-links {
     font-size: 10px;
   }
 }
