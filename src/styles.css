@@ -63,7 +63,7 @@ a :hover {
   padding: 40px 20px;
   border-radius: 6px;
 }
-.container-book1 {
+.sub-container {
   background-color: #e8db8d;
   opacity: 0.6;
   max-width: 1500px;
@@ -86,7 +86,16 @@ a :hover {
   font-size: 30px;
   font-weight: bold;
 }
-
+.sub-heading4 {
+  color: #4e7895;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sub-heading5 {
+  color: #10163e;
+  font-size: 30px;
+  font-weight: bold;
+}
 .intro {
   text-align: center;
   font-size: 28px;
@@ -101,15 +110,9 @@ a :hover {
 }
 .book-cover {
   width: 80%;
-  padding: 20px;
-  margin: 40px 0 30px 60px;
+  display: block;
   border-radius: 7px;
-}
-.book-cover3 {
-  width: 80%;
-  padding: 20px;
   margin: 40px 0 30px 60px;
-  border-radius: 20px;
 }
 .secondary-image {
   width: 90%;
@@ -117,12 +120,7 @@ a :hover {
   border-radius: 7px;
   margin-bottom: 40px;
 }
-.third-image {
-  width: 60%;
-  display: block;
-  border-radius: 7px;
-  margin-bottom: 40px;
-}
+
 .external-links {
   text-align: center;
   display: flex;
@@ -138,8 +136,24 @@ a :hover {
   color: #e8db8d;
   font-weight: bolder;
 }
+.author-links {
+  text-align: center;
+  background-color: #541423;
+  padding: 10px 0;
+  border-radius: 6px;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+.author-links a {
+  text-decoration: none;
+  color: #e8db8d;
+  font-weight: bolder;
+}
 .icon {
   width: 30px;
+  color: #e8db8d;
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {
