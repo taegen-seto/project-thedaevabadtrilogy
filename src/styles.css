@@ -22,7 +22,11 @@ h1 {
   color: #541423;
   font-weight: bolder;
 }
-
+.sub-heading1 {
+  color: #213c8e;
+  font-size: 30px;
+  font-weight: bold;
+}
 /* img {
   width: 100%;
   border-radius: 7px;
@@ -66,7 +70,7 @@ a :hover {
 .container-book1 {
   background-color: #e8db8d;
   opacity: 0.6;
-  /* max-width: 900px; */
+  max-width: 1500px;
   margin: 140px auto;
   padding: 40px 20px;
   border-radius: 6px;
@@ -78,15 +82,22 @@ a :hover {
   color: #541423;
 }
 .synopsis {
-  font-size: 19px;
-  padding: 15px 30px;
+  font-size: 16px;
+  padding: 15px 50px;
   color: #541423;
+  margin-top: 40px;
 }
 .book-cover {
   width: 80%;
   padding: 20px;
-  margin-left: 70px;
-  /* border-radius: 7px; */
+  margin: 40px 0 0 60px;
+  border-radius: 7px;
+}
+.secondary-image {
+  width: 90%;
+  display: block;
+  border-radius: 7px;
+  margin-bottom: 40px;
 }
 .external-links {
   text-align: center;
@@ -95,7 +106,8 @@ a :hover {
   background-color: #541423;
   padding: 20px;
   border-radius: 6px;
-  margin: 20px 120px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 .external-links a {
   text-decoration: none;
