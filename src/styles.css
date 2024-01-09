@@ -167,7 +167,7 @@ a :hover {
     font-size: 45px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .container-homepage {
     max-width: 300px;
@@ -183,6 +183,10 @@ a :hover {
     margin: 0 auto;
   }
   .sub-heading1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sub-heading2 {
     font-size: 16px;
     text-align: center;
   }
