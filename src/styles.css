@@ -65,3 +65,18 @@ a :hover {
   color: #e8db8d;
   font-weight: bolder;
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .container-homepage {
+    max-width: 300px;
+  }
+  .pages {
+    font-size: 10px;
+  }
+}
