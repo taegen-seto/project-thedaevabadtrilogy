@@ -55,6 +55,9 @@ a :hover {
 .nav-link {
   color: #e8db8d;
 }
+.nav-link active {
+  color: #e8db8d;
+}
 .container-homepage {
   background-color: #e8db8d;
   opacity: 0.6;
