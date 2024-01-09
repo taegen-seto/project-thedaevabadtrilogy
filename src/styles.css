@@ -8,11 +8,11 @@ font-family: 'Pirata One', system-ui;
 font-family: 'WindSong', cursive; */
 
 body {
-  font-family: "Courier New", Courier, monospace;
   background-color: #692b37;
   background-image: url(/images/city.jpg);
   background-repeat: none;
   background-size: cover;
+  font-family: "Laila", serif;
 }
 h1 {
   font-family: "Eagle Lake", serif;
@@ -22,19 +22,13 @@ h1 {
   color: #541423;
   font-weight: bolder;
 }
-p {
-  font-family: "Laila", serif;
-  text-align: center;
-  font-size: 28px;
-  padding: 40px 10px;
-  color: #541423;
-}
-img {
-  max-width: 30px;
-}
+
+/* img {
+  width: 100%;
+  border-radius: 7px;
+} */
 footer {
   text-align: center;
-  font-family: "Laila", serif;
   margin-top: 50px;
 }
 footer a {
@@ -45,17 +39,9 @@ footer a {
 a :hover {
   cursor: pointer;
 }
-.container-homepage {
-  background-color: #e8db8d;
-  opacity: 0.6;
-  max-width: 800px;
-  margin: 140px auto;
-  padding: 40px 20px;
-  border-radius: 6px;
-}
+
 .container-fluid {
   background-color: #541423;
-  font-family: "Laila", serif;
   padding: 10px;
 }
 .navbar {
@@ -66,13 +52,44 @@ a :hover {
 .navbar-brand {
   color: #e8db8d;
 }
-
 .nav-link {
   color: #e8db8d;
 }
+.container-homepage {
+  background-color: #e8db8d;
+  opacity: 0.6;
+  max-width: 800px;
+  margin: 140px auto;
+  padding: 40px 20px;
+  border-radius: 6px;
+}
+.container-book1 {
+  background-color: #e8db8d;
+  opacity: 0.6;
+  /* max-width: 900px; */
+  margin: 140px auto;
+  padding: 40px 20px;
+  border-radius: 6px;
+}
+.intro {
+  text-align: center;
+  font-size: 28px;
+  padding: 40px 10px;
+  color: #541423;
+}
+.synopsis {
+  font-size: 19px;
+  padding: 15px 30px;
+  color: #541423;
+}
+.book-cover {
+  width: 80%;
+  padding: 20px;
+  margin-left: 70px;
+  /* border-radius: 7px; */
+}
 .external-links {
   text-align: center;
-  font-family: "Laila", serif;
   display: flex;
   justify-content: space-evenly;
   background-color: #541423;
@@ -84,6 +101,9 @@ a :hover {
   text-decoration: none;
   color: #e8db8d;
   font-weight: bolder;
+}
+.icon {
+  width: 30px;
 }
 
 @media (max-width: 500px) {
