@@ -81,6 +81,12 @@ a :hover {
   font-size: 30px;
   font-weight: bold;
 }
+.sub-heading3 {
+  color: #af3152;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .intro {
   text-align: center;
   font-size: 28px;
@@ -96,8 +102,14 @@ a :hover {
 .book-cover {
   width: 80%;
   padding: 20px;
-  margin: 40px 0 20px 60px;
+  margin: 40px 0 30px 60px;
   border-radius: 7px;
+}
+.book-cover3 {
+  width: 80%;
+  padding: 20px;
+  margin: 40px 0 30px 60px;
+  border-radius: 20px;
 }
 .secondary-image {
   width: 90%;
