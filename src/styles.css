@@ -29,6 +29,9 @@ p {
   padding: 40px 10px;
   color: #541423;
 }
+img {
+  max-width: 30px;
+}
 footer {
   text-align: center;
   font-family: "Laila", serif;
@@ -50,17 +53,34 @@ a :hover {
   padding: 40px 20px;
   border-radius: 6px;
 }
-.pages {
+.container-fluid {
+  background-color: #541423;
+  font-family: "Laila", serif;
+  padding: 10px;
+}
+.navbar {
+  background-color: #541423;
+  padding: 0;
+  opacity: 0.6;
+}
+.navbar-brand {
+  color: #e8db8d;
+}
+
+.nav-link {
+  color: #e8db8d;
+}
+.external-links {
   text-align: center;
   font-family: "Laila", serif;
   display: flex;
   justify-content: space-evenly;
   background-color: #541423;
-  padding: 10px;
+  padding: 20px;
   border-radius: 6px;
-  margin: 20px 0;
+  margin: 20px 120px;
 }
-.pages a {
+.external-links a {
   text-decoration: none;
   color: #e8db8d;
   font-weight: bolder;
