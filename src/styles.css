@@ -1,4 +1,4 @@
-.body-home {
+.body-homepage {
   background-color: #953936;
   background-image: url(/images/city.jpg);
   background-repeat: none;
@@ -41,11 +41,11 @@ a :hover {
   cursor: pointer;
 }
 .container-fluid {
-  background-color: #953936;
+  background-color: #6f3535;
   padding: 10px;
 }
 .navbar {
-  background-color: #953936;
+  background-color: #6f3535;
   padding: 0;
   opacity: 0.6;
 }
@@ -57,7 +57,7 @@ a :hover {
 }
 .container-homepage {
   background-color: #e8db8d;
-  opacity: 0.6;
+  opacity: 0.7;
   max-width: 800px;
   margin: 140px auto;
   padding: 40px 20px;
@@ -65,7 +65,7 @@ a :hover {
 }
 .sub-container {
   background-color: #e8db8d;
-  opacity: 0.6;
+  opacity: 0.7;
   max-width: 1500px;
   margin: 140px auto;
   padding: 40px 20px;
@@ -98,7 +98,7 @@ a :hover {
 }
 .intro {
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   padding: 40px 10px;
   color: #541423;
 }
