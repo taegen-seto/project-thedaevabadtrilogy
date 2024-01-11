@@ -1,14 +1,14 @@
 .body-homepage {
   background-color: #953936;
   background-image: url(/images/city.jpg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: "Laila", serif;
 }
 .body-book-pages {
   background-color: #953936;
   background-image: url(/images/sunset.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: "Laila", serif;
 }
@@ -55,17 +55,18 @@ a :hover {
 .nav-link {
   color: #e8db8d;
 }
+.active {
+  color: white;
+}
 .container-homepage {
-  background-color: #e8db8d;
-  opacity: 0.7;
+  background-color: rgba(232, 219, 141, 0.6);
   max-width: 800px;
   margin: 140px auto;
   padding: 40px 20px;
   border-radius: 6px;
 }
 .sub-container {
-  background-color: #e8db8d;
-  opacity: 0.7;
+  background-color: rgba(232, 219, 141, 0.6);
   max-width: 1500px;
   margin: 140px auto;
   padding: 40px 20px;
@@ -108,6 +109,13 @@ a :hover {
   color: #541423;
   margin-top: 40px;
 }
+.author-content {
+  font-size: 16px;
+  padding: 15px 50px;
+  color: #541423;
+  margin-top: 40px;
+  text-align: center;
+}
 .book-cover {
   width: 80%;
   display: block;
@@ -135,19 +143,19 @@ a :hover {
   color: #e8db8d;
   font-weight: bolder;
 }
-.author-links {
-  text-align: center;
+.author-links-container {
   background-color: #541423;
-  padding: 20px 0;
-  border-radius: 6px;
-  margin: 0 auto;
-  max-width: 600px;
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 300px;
+  width: 100%;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
-.author-links a {
+.author-links-container a {
   text-decoration: none;
   color: #e8db8d;
-  font-weight: bolder;
 }
 .icon {
   width: 30px;
@@ -205,6 +213,11 @@ a :hover {
     text-align: center;
     padding: 0;
   }
+  .author-content {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
   .secondary-image {
     width: 90%;
     display: block;
@@ -214,5 +227,9 @@ a :hover {
   }
   .external-links {
     font-size: 10px;
+  }
+  .author-links-container {
+    margin: 20px 0;
+    padding: 10px 0;
   }
 }
