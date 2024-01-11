@@ -156,6 +156,7 @@ a :hover {
 .author-links-container a {
   text-decoration: none;
   color: #e8db8d;
+  padding: 10px 30px;
 }
 .icon {
   width: 30px;
@@ -230,6 +231,6 @@ a :hover {
   }
   .author-links-container {
     margin: 20px 0;
-    padding: 10px 0;
+    padding: 10px 20px;
   }
 }
