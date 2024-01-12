@@ -134,34 +134,18 @@ a :hover {
   justify-content: space-evenly;
   background-color: #541423;
   padding: 20px;
-  border-radius: 6px;
+  border-radius: 33px;
   margin: 0 auto;
   max-width: 500px;
 }
 .external-links a {
   text-decoration: none;
   color: #e8db8d;
-  font-weight: bolder;
-}
-.author-links-container {
-  background-color: #541423;
-  display: flex;
-  justify-content: center;
-  padding: 10px 300px;
-  width: 100%;
-  border-radius: 40px;
-  text-align: center;
-  margin-top: 40px;
-}
-.author-links-container a {
-  text-decoration: none;
-  color: #e8db8d;
-  padding: 10px 30px;
 }
 .icon {
   width: 30px;
   color: #e8db8d;
-  font-weight: bold;
+  font-size: 25px;
 }
 @media (max-width: 500px) {
   h1 {
@@ -228,9 +212,5 @@ a :hover {
   }
   .external-links {
     font-size: 10px;
-  }
-  .author-links-container {
-    margin: 20px 0;
-    padding: 10px 20px;
   }
 }
