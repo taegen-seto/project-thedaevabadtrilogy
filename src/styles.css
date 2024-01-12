@@ -1,15 +1,15 @@
 .body-homepage {
   background-color: #953936;
   background-image: url(/images/city.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Laila", serif;
 }
 .body-book-pages {
   background-color: #953936;
   background-image: url(/images/sunset.jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Laila", serif;
 }
 h1 {
@@ -55,7 +55,7 @@ a :hover {
 .nav-link {
   color: #e8db8d;
 }
-.active {
+.navbar-nav .nav-link.active {
   color: white;
 }
 .container-homepage {
