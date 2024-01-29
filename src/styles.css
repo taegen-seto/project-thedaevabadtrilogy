@@ -36,6 +36,7 @@ footer a {
   text-decoration: none;
   color: #541423;
   font-size: 13px;
+  letter-spacing: 2px;
 }
 a :hover {
   cursor: pointer;
@@ -157,6 +158,15 @@ a :hover {
     margin-top: 0;
     margin-bottom: 20px;
   }
+  footer {
+    font-size: 8px;
+  }
+  footer a {
+    font-size: 8px;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+  }
   .container-homepage {
     max-width: 300px;
     margin: 40px auto;
@@ -212,5 +222,20 @@ a :hover {
   }
   .external-links {
     font-size: 10px;
+  }
+  .back-to-top {
+    font-family: "Laila", serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: rgba(232, 219, 141, 0.4);
+    margin: 20px 10px;
+    padding: 10px 0;
+    border-radius: 22px;
+    max-width: 100%;
+    display: block;
+    color: #541423;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 }
